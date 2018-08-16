@@ -6,7 +6,7 @@ from src import (
     pow_func,
     swap,
     condition_print,
-
+    max_min_number,
 )
 
 def test_clock():
@@ -35,3 +35,8 @@ def test_condition_print():
     output = StringIO()
     condition_print(output=output)
     assert output.getvalue().strip() == 'Hello World'
+
+def test_max_min():
+    assert max_min_number(2, 4, 1) == (4, 1)
+    assert max_min_number(0, 0, 0) == (0, 0)
+    assert max_min_number(-2, 4, 8) == (8, -2)

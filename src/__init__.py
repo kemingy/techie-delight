@@ -3,4 +3,4 @@ from src.add_number import add_func
 from src.power_func import pow_func
 from src.swap_number import swap
 from src.condition_print import condition_print
-
+from src.max_min import max_min_number
