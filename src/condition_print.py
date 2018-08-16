@@ -14,9 +14,8 @@ def condition_print(output=sys.stdout):
     else:
         output.write('World')
 
-'''
-if print('Hello', end=' '):
-    print('Hello', end=' ')
-else:
-    print('World')
-'''
+def print_func():
+    if print('Hello', end=' '):
+        print('Hello', end=' ')
+    else:
+        print('World')
