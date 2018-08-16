@@ -5,6 +5,8 @@ from src import (
     add_func,
     pow_func,
     swap,
+    condition_print,
+
 )
 
 def test_clock():
@@ -27,3 +29,9 @@ def test_swap():
     assert swap(2, 2) == (2, 2)
     assert swap(0, 4) == (4, 0)
     assert swap(-1, 3) == (3, -1)
+
+def test_condition_print():
+    from io import StringIO
+    output = StringIO()
+    condition_print(output=output)
+    assert output.getvalue().strip() == 'Hello World'
