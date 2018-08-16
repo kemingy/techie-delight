@@ -3,7 +3,8 @@ import math
 from src import (
     clock_angle,
     add_func,
-    pow_func
+    pow_func,
+    swap,
 )
 
 def test_clock():
@@ -20,3 +21,9 @@ def test_power():
     assert math.isclose(pow_func(2, 10), 1024)
     assert math.isclose(pow_func(1, 500), 1)
     assert math.isclose(pow_func(10, 2), 100)
+
+def test_swap():
+    assert swap(2, 5) == (5, 2)
+    assert swap(2, 2) == (2, 2)
+    assert swap(0, 4) == (4, 0)
+    assert swap(-1, 3) == (3, -1)
