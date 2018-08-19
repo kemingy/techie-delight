@@ -47,3 +47,10 @@ def test_even():
     assert is_even(3) == False
     assert is_even(-3) == False
     assert is_even(0) == True
+
+def test_square():
+    assert square(3) == 9
+    assert square(1) == 1
+    assert square(0) == 0
+    assert square(-9) == 81
+
