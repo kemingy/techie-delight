@@ -59,3 +59,8 @@ def test_oneline():
     assert one_line_set_two([1, 0]) == [0, 0]
     assert one_line_set_two([0, 0]) == [0, 0]
 
+def test_minimum():
+    assert minimum(2, 5) == 2
+    assert minimum(45, -4) == -4
+    assert minimum(0, 0) == 0
+
