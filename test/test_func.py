@@ -64,3 +64,9 @@ def test_minimum():
     assert minimum(45, -4) == -4
     assert minimum(0, 0) == 0
 
+def test_divide():
+    assert divide(1, 34) == 0
+    assert divide(0, 2) == 0
+    assert divide(32, 5) == 6
+    assert divide(-44, 8) == -5
+
