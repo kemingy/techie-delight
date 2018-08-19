@@ -8,3 +8,4 @@ from src.cube_sum import get_cube
 from src.multiply import multiply
 from src.is_even import is_even
 from src.square import square
+from src.oneline import one_line_set_two

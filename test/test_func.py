@@ -54,3 +54,8 @@ def test_square():
     assert square(0) == 0
     assert square(-9) == 81
 
+def test_oneline():
+    assert one_line_set_two([0, 1]) == [0, 0]
+    assert one_line_set_two([1, 0]) == [0, 0]
+    assert one_line_set_two([0, 0]) == [0, 0]
+
