@@ -1,14 +1,6 @@
 import math
 
-from src import (
-    clock_angle,
-    add_func,
-    pow_func,
-    swap,
-    condition_print,
-    max_min_number,
-    get_cube,
-)
+from src import *
 
 def test_clock():
     assert clock_angle('5:30') == 15
@@ -44,4 +36,10 @@ def test_max_min():
 
 def test_cube_sum():
     assert list(get_cube(25000)) == [1729, 4104, 13832, 20683]
+
+def test_multiply():
+    assert multiply(2, 5) == 10
+    assert multiply(0, 4) == 0
+    assert multiply(1, 0) == 0
+    assert multiply(1, -3) == -3
 
