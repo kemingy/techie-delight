@@ -6,3 +6,4 @@ from src.condition_print import condition_print
 from src.max_min import max_min_number
 from src.cube_sum import get_cube
 from src.multiply import multiply
+from src.is_even import is_even

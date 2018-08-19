@@ -43,3 +43,7 @@ def test_multiply():
     assert multiply(1, 0) == 0
     assert multiply(1, -3) == -3
 
+def test_even():
+    assert is_even(3) == False
+    assert is_even(-3) == False
+    assert is_even(0) == True
