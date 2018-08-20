@@ -12,3 +12,4 @@ from src.oneline import one_line_set_two
 from src.minimum import minimum
 from src.division import divide
 from src.ternary import ternary
+from src.equal import number_equal

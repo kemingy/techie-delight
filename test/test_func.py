@@ -73,3 +73,9 @@ def test_divide():
 def test_ternary():
     assert ternary(True, 23, -9) == 23
     assert ternary(False, 22, 8) == 8
+
+def test_equal():
+    assert number_equal(2, 2) == True
+    assert number_equal(0, -2) == False
+    assert number_equal(-3, -3) == True
+
