@@ -70,3 +70,6 @@ def test_divide():
     assert divide(32, 5) == 6
     assert divide(-44, 8) == -5
 
+def test_ternary():
+    assert ternary(True, 23, -9) == 23
+    assert ternary(False, 22, 8) == 8
