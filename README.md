@@ -7,8 +7,9 @@ Solve [Top 25 programming puzzles and brain teasers](https://techiedelight.quora
 * `array[x > y]`
 * `^` and `|`
 * `<<` and `>>`
-* math
-* recurrent
+* math(log, exp, and some formula)
+* recursive fucntion
+* short circuiting
 
 ## License
 
